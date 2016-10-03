@@ -7,13 +7,22 @@ Things you may want to cover:
 
 * Ruby version
 
+2.3.1
+
 * System dependencies
 
+MySQL 5
+
 * Configuration
+
+Configure your database login in config/database.yml file
 
 * Database creation
 
 * Database initialization
+
+		bin/rake db:migrate
+		bin/rake db:seed
 
 * How to run the test suite
 
